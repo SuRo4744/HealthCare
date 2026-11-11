@@ -1,0 +1,22 @@
+[
+    {"id": "inst-01", "name": "Scalpel Handle #3", "category": "Cutting", "status": "present", "confidence": 1.0, "usage_frequency_pct": 98},
+    {"id": "inst-02", "name": "Scalpel Handle #4", "category": "Cutting", "status": "present", "confidence": 1.0, "usage_frequency_pct": 95},
+    {"id": "inst-03", "name": "Metzenbaum Scissors", "category": "Cutting", "status": "present", "confidence": 1.0, "usage_frequency_pct": 92},
+    {"id": "inst-04", "name": "Mayo Scissors", "category": "Cutting", "status": "present", "confidence": 1.0, "usage_frequency_pct": 88},
+    {"id": "inst-05", "name": "Iris Scissors", "category": "Cutting", "status": "present", "confidence": 1.0, "usage_frequency_pct": 75},
+    {"id": "inst-06", "name": "Adson Tissue Forceps", "category": "Grasping", "status": "present", "confidence": 1.0, "usage_frequency_pct": 96},
+    {"id": "inst-07", "name": "DeBakey Vascular Forceps", "category": "Grasping", "status": "present", "confidence": 1.0, "usage_frequency_pct": 90},
+    {"id": "inst-08", "name": "Crile Hemostatic Clamp", "category": "Clamping", "status": "present", "confidence": 1.0, "usage_frequency_pct": 70},
+    {"id": "inst-09", "name": "Kelly Clamp (Straight)", "category": "Clamping", "status": "present", "confidence": 1.0, "usage_frequency_pct": 85},
+    {"id": "inst-10", "name": "Halstead Mosquito Clamp", "category": "Clamping", "status": "present", "confidence": 1.0, "usage_frequency_pct": 80},
+    {"id": "inst-11", "name": "Mayo-Hegar Needle Holder", "category": "Suturing", "status": "present", "confidence": 1.0, "usage_frequency_pct": 99},
+    {"id": "inst-12", "name": "Self-Retaining Retractor", "category": "Retracting", "status": "present", "confidence": 1.0, "usage_frequency_pct": 65},
+    {"id": "inst-13", "name": "Senn Retractor Pair", "category": "Retracting", "status": "present", "confidence": 1.0, "usage_frequency_pct": 50},
+    {"id": "inst-14", "name": "Army-Navy Retractor", "category": "Retracting", "status": "present", "confidence": 1.0, "usage_frequency_pct": 82},
+    {"id": "inst-15", "name": "Richardson Retractor", "category": "Retracting", "status": "present", "confidence": 1.0, "usage_frequency_pct": 58},
+    {"id": "inst-16", "name": "Laparoscopic Scope", "category": "Scope / Robotic", "status": "present", "confidence": 1.0, "usage_frequency_pct": 95},
+    {"id": "inst-17", "name": "Veress Insufflation Probe", "category": "Scope / Robotic", "status": "present", "confidence": 1.0, "usage_frequency_pct": 88},
+    {"id": "inst-18", "name": "Trocar Sleeve Set", "category": "Scope / Robotic", "status": "present", "confidence": 1.0, "usage_frequency_pct": 90},
+    {"id": "inst-19", "name": "Maryland Dissector", "category": "Grasping", "status": "present", "confidence": 1.0, "usage_frequency_pct": 84},
+    {"id": "inst-20", "name": "Robotic Bone Saw Handpiece", "category": "Cutting", "status": "present", "confidence": 1.0, "usage_frequency_pct": 99}
+]

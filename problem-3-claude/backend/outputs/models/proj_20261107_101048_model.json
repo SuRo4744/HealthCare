@@ -1,0 +1,19 @@
+{
+  "created_at": "2026-11-07T10:10:53.477375",
+  "input_images": 30,
+  "point_count": 2860,
+  "triangle_count": 15,
+  "bounding_box": [
+    [
+      -0.1816721585743522,
+      -0.24248043032632494,
+      -1.0
+    ],
+    [
+      0.1816721585743522,
+      0.24248043032632494,
+      1.0
+    ]
+  ],
+  "reconstruction_method": "sift_photogrammetry"
+}

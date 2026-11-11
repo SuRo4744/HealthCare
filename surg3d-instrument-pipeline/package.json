@@ -1,0 +1,15 @@
+{
+  "name": "surg3d-instrument-pipeline",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev:frontend": "cd frontend && next dev",
+    "dev:backend": "cd backend && python -m uvicorn app.main:app --host 0.0.0.0 --port 8000",
+    "dev": "concurrently \"dev:frontend\" \"dev:backend\"",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "concurrently": "^7.0.0"
+  }
+}

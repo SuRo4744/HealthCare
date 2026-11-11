@@ -1,0 +1,11 @@
+{
+  "project_id": "proj_20261107_101048",
+  "product_name": "Test",
+  "product_type": "Surgical Instrument",
+  "language": "en",
+  "created_at": "2026-11-07T10:11:45.446514",
+  "duration_seconds": 27,
+  "video_path": "outputs/videos/proj_20261107_101048_explainer.mp4",
+  "resolution": "1920x1080",
+  "segments": 7
+}

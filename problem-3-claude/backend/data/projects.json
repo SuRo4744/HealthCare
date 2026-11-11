@@ -1,0 +1,579 @@
+{
+  "proj_20261107_055819": {
+    "id": "proj_20261107_055819",
+    "name": "Test Surgical Implant",
+    "description": null,
+    "product_type": "Surgical Implant",
+    "status": "completed",
+    "created_at": "2026-11-07T05:58:19.130070",
+    "updated_at": "2026-11-07T06:01:30.961006",
+    "progress": 100,
+    "steps": [
+      {
+        "name": "upload_media",
+        "status": "completed",
+        "description": "Upload video/photos",
+        "progress": 100
+      },
+      {
+        "name": "process_3d",
+        "status": "completed",
+        "description": "Generate 3D model",
+        "progress": 100
+      },
+      {
+        "name": "create_explainer",
+        "status": "completed",
+        "description": "Generate explainer video",
+        "progress": 100
+      }
+    ],
+    "artifacts": {
+      "model_3d": "outputs/models/proj_20261107_055819_model",
+      "metadata": {
+        "created_at": "2026-11-07T05:59:06.434534",
+        "input_images": 30,
+        "point_count": 2735,
+        "triangle_count": 320,
+        "bounding_box": [
+          [
+            -1.0,
+            -1.0,
+            -1.0
+          ],
+          [
+            1.0,
+            1.0,
+            1.0
+          ]
+        ],
+        "reconstruction_method": "sift_photogrammetry"
+      },
+      "explainer_video": "outputs/videos/proj_20261107_055819_explainer.mp4",
+      "video_metadata": {
+        "project_id": "proj_20261107_055819",
+        "video_path": "outputs/videos/proj_20261107_055819_explainer.mp4",
+        "metadata_path": "outputs/videos/proj_20261107_055819_explainer_metadata.json",
+        "duration": 27,
+        "status": "completed"
+      }
+    },
+    "error": "No module named 'moviepy.editor'"
+  },
+  "proj_20261107_060608": {
+    "id": "proj_20261107_060608",
+    "name": "Test",
+    "description": "",
+    "product_type": "Surgical Instrument",
+    "status": "completed",
+    "created_at": "2026-11-07T06:06:08.312652",
+    "updated_at": "2026-11-07T06:07:33.216378",
+    "progress": 100,
+    "steps": [
+      {
+        "name": "upload_media",
+        "status": "completed",
+        "description": "Upload video/photos",
+        "progress": 100
+      },
+      {
+        "name": "process_3d",
+        "status": "completed",
+        "description": "Generate 3D model",
+        "progress": 100
+      },
+      {
+        "name": "create_explainer",
+        "status": "completed",
+        "description": "Generate explainer video",
+        "progress": 100
+      }
+    ],
+    "artifacts": {
+      "model_3d": "outputs/models/proj_20261107_060608_model",
+      "metadata": {
+        "created_at": "2026-11-07T06:06:13.145010",
+        "input_images": 30,
+        "point_count": 2886,
+        "triangle_count": 320,
+        "bounding_box": [
+          [
+            -1.0,
+            -1.0,
+            -1.0
+          ],
+          [
+            1.0,
+            1.0,
+            1.0
+          ]
+        ],
+        "reconstruction_method": "sift_photogrammetry"
+      },
+      "explainer_video": "outputs/videos/proj_20261107_060608_explainer.mp4",
+      "video_metadata": {
+        "project_id": "proj_20261107_060608",
+        "video_path": "outputs/videos/proj_20261107_060608_explainer.mp4",
+        "metadata_path": "outputs/videos/proj_20261107_060608_explainer_metadata.json",
+        "duration": 27,
+        "status": "completed"
+      }
+    }
+  },
+  "proj_20261107_060955": {
+    "id": "proj_20261107_060955",
+    "name": "Mesh Test",
+    "description": null,
+    "product_type": "Surgical Implant",
+    "status": "completed",
+    "created_at": "2026-11-07T06:09:55.338383",
+    "updated_at": "2026-11-07T06:09:57.663999",
+    "progress": 100,
+    "steps": [
+      {
+        "name": "upload_media",
+        "status": "completed",
+        "description": "Upload video/photos",
+        "progress": 100
+      },
+      {
+        "name": "process_3d",
+        "status": "completed",
+        "description": "Generate 3D model",
+        "progress": 100
+      },
+      {
+        "name": "create_explainer",
+        "status": "pending",
+        "description": "Generate explainer video",
+        "progress": 0
+      }
+    ],
+    "artifacts": {
+      "model_3d": "outputs/models/proj_20261107_060955_model",
+      "metadata": {
+        "created_at": "2026-11-07T06:09:57.663267",
+        "input_images": 30,
+        "point_count": 2735,
+        "triangle_count": 36,
+        "bounding_box": [
+          [
+            -2303871680512.0,
+            -1597860347904.0,
+            -164457988751360.0
+          ],
+          [
+            111520830717952.0,
+            109928077328384.0,
+            358748484796416.0
+          ]
+        ],
+        "reconstruction_method": "sift_photogrammetry"
+      }
+    }
+  },
+  "proj_20261107_091612": {
+    "id": "proj_20261107_091612",
+    "name": "Mesh Fix Test",
+    "description": null,
+    "product_type": "Surgical Implant",
+    "status": "completed",
+    "created_at": "2026-11-07T09:16:12.282460",
+    "updated_at": "2026-11-07T10:11:16.807981",
+    "progress": 100,
+    "steps": [
+      {
+        "name": "upload_media",
+        "status": "completed",
+        "description": "Upload video/photos",
+        "progress": 100
+      },
+      {
+        "name": "process_3d",
+        "status": "completed",
+        "description": "Generate 3D model",
+        "progress": 100
+      },
+      {
+        "name": "create_explainer",
+        "status": "pending",
+        "description": "Generate explainer video",
+        "progress": 0
+      }
+    ],
+    "artifacts": {
+      "model_3d": "outputs/models/proj_20261107_091612_model",
+      "metadata": {
+        "created_at": "2026-11-07T10:11:16.806470",
+        "input_images": 30,
+        "point_count": 2713,
+        "triangle_count": 34,
+        "bounding_box": [
+          [
+            -0.22244715091019987,
+            -0.25986011413202975,
+            -1.0
+          ],
+          [
+            0.22244715091019987,
+            0.25986011413202975,
+            1.0
+          ]
+        ],
+        "reconstruction_method": "sift_photogrammetry"
+      }
+    }
+  },
+  "proj_20261107_101048": {
+    "id": "proj_20261107_101048",
+    "name": "Test",
+    "description": "",
+    "product_type": "Surgical Instrument",
+    "status": "completed",
+    "created_at": "2026-11-07T10:10:48.985700",
+    "updated_at": "2026-11-07T10:11:45.447324",
+    "progress": 100,
+    "steps": [
+      {
+        "name": "upload_media",
+        "status": "completed",
+        "description": "Upload video/photos",
+        "progress": 100
+      },
+      {
+        "name": "process_3d",
+        "status": "completed",
+        "description": "Generate 3D model",
+        "progress": 100
+      },
+      {
+        "name": "create_explainer",
+        "status": "completed",
+        "description": "Generate explainer video",
+        "progress": 100
+      }
+    ],
+    "artifacts": {
+      "model_3d": "outputs/models/proj_20261107_101048_model",
+      "metadata": {
+        "created_at": "2026-11-07T10:10:53.477375",
+        "input_images": 30,
+        "point_count": 2860,
+        "triangle_count": 15,
+        "bounding_box": [
+          [
+            -0.1816721585743522,
+            -0.24248043032632494,
+            -1.0
+          ],
+          [
+            0.1816721585743522,
+            0.24248043032632494,
+            1.0
+          ]
+        ],
+        "reconstruction_method": "sift_photogrammetry"
+      },
+      "explainer_video": "outputs/videos/proj_20261107_101048_explainer.mp4",
+      "video_metadata": {
+        "project_id": "proj_20261107_101048",
+        "video_path": "outputs/videos/proj_20261107_101048_explainer.mp4",
+        "metadata_path": "outputs/videos/proj_20261107_101048_explainer_metadata.json",
+        "duration": 27,
+        "status": "completed"
+      }
+    }
+  },
+  "proj_20261107_101351": {
+    "id": "proj_20261107_101351",
+    "name": "Final Test",
+    "description": null,
+    "product_type": "Medical Device",
+    "status": "completed",
+    "created_at": "2026-11-07T10:13:51.296968",
+    "updated_at": "2026-11-07T10:13:53.765953",
+    "progress": 100,
+    "steps": [
+      {
+        "name": "upload_media",
+        "status": "completed",
+        "description": "Upload video/photos",
+        "progress": 100
+      },
+      {
+        "name": "process_3d",
+        "status": "completed",
+        "description": "Generate 3D model",
+        "progress": 100
+      },
+      {
+        "name": "create_explainer",
+        "status": "pending",
+        "description": "Generate explainer video",
+        "progress": 0
+      }
+    ],
+    "artifacts": {
+      "model_3d": "outputs/models/proj_20261107_101351_model",
+      "metadata": {
+        "created_at": "2026-11-07T10:13:53.765176",
+        "input_images": 30,
+        "point_count": 2713,
+        "triangle_count": 3,
+        "bounding_box": [
+          [
+            -0.2154409942367578,
+            -0.21234148920305895,
+            -0.9999999999999999
+          ],
+          [
+            0.2154409942367578,
+            0.21234148920305895,
+            0.9999999999999999
+          ]
+        ],
+        "reconstruction_method": "sift_photogrammetry"
+      }
+    }
+  },
+  "proj_20261107_102155": {
+    "id": "proj_20261107_102155",
+    "name": "E2E Test",
+    "description": null,
+    "product_type": "Surgical Implant",
+    "status": "completed",
+    "created_at": "2026-11-07T10:21:55.668317",
+    "updated_at": "2026-11-07T10:22:55.671878",
+    "progress": 100,
+    "steps": [
+      {
+        "name": "upload_media",
+        "status": "completed",
+        "description": "Upload video/photos",
+        "progress": 100
+      },
+      {
+        "name": "process_3d",
+        "status": "completed",
+        "description": "Generate 3D model",
+        "progress": 100
+      },
+      {
+        "name": "create_explainer",
+        "status": "completed",
+        "description": "Generate explainer video",
+        "progress": 100
+      }
+    ],
+    "artifacts": {
+      "model_3d": "outputs/models/proj_20261107_102155_model",
+      "metadata": {
+        "created_at": "2026-11-07T10:21:58.024799",
+        "input_images": 30,
+        "point_count": 2713,
+        "triangle_count": 3,
+        "bounding_box": [
+          [
+            -0.22142634095270103,
+            -0.25977438199273184,
+            -1.0
+          ],
+          [
+            0.22142634095270103,
+            0.25977438199273184,
+            1.0
+          ]
+        ],
+        "reconstruction_method": "sift_photogrammetry"
+      },
+      "explainer_video": "outputs/videos/proj_20261107_102155_explainer.mp4",
+      "video_metadata": {
+        "project_id": "proj_20261107_102155",
+        "video_path": "outputs/videos/proj_20261107_102155_explainer.mp4",
+        "metadata_path": "outputs/videos/proj_20261107_102155_explainer_metadata.json",
+        "duration": 27,
+        "status": "completed"
+      }
+    }
+  },
+  "proj_20261107_104144": {
+    "id": "proj_20261107_104144",
+    "name": "Test",
+    "description": "",
+    "product_type": "Surgical Instrument",
+    "status": "completed",
+    "created_at": "2026-11-07T10:41:44.895912",
+    "updated_at": "2026-11-07T10:43:04.006000",
+    "progress": 100,
+    "steps": [
+      {
+        "name": "upload_media",
+        "status": "completed",
+        "description": "Upload video/photos",
+        "progress": 100
+      },
+      {
+        "name": "process_3d",
+        "status": "completed",
+        "description": "Generate 3D model",
+        "progress": 100
+      },
+      {
+        "name": "create_explainer",
+        "status": "completed",
+        "description": "Generate explainer video",
+        "progress": 100
+      }
+    ],
+    "artifacts": {
+      "model_3d": "outputs/models/proj_20261107_104144_model",
+      "metadata": {
+        "created_at": "2026-11-07T10:41:57.358315",
+        "input_images": 30,
+        "point_count": 2847,
+        "triangle_count": 11,
+        "bounding_box": [
+          [
+            -1.0,
+            -0.5923662952517006,
+            -0.7570387137937438
+          ],
+          [
+            1.0,
+            0.5923662952517006,
+            0.7570387137937438
+          ]
+        ],
+        "reconstruction_method": "sift_photogrammetry"
+      },
+      "explainer_video": "outputs/videos/proj_20261107_104144_explainer.mp4",
+      "video_metadata": {
+        "project_id": "proj_20261107_104144",
+        "video_path": "outputs/videos/proj_20261107_104144_explainer.mp4",
+        "metadata_path": "outputs/videos/proj_20261107_104144_explainer_metadata.json",
+        "duration": 27,
+        "status": "completed"
+      }
+    }
+  },
+  "proj_20261107_105250": {
+    "id": "proj_20261107_105250",
+    "name": "Test-1",
+    "description": "",
+    "product_type": "Surgical Instrument",
+    "status": "completed",
+    "created_at": "2026-11-07T10:52:50.663172",
+    "updated_at": "2026-11-07T10:53:47.727276",
+    "progress": 100,
+    "steps": [
+      {
+        "name": "upload_media",
+        "status": "completed",
+        "description": "Upload video/photos",
+        "progress": 100
+      },
+      {
+        "name": "process_3d",
+        "status": "completed",
+        "description": "Generate 3D model",
+        "progress": 100
+      },
+      {
+        "name": "create_explainer",
+        "status": "completed",
+        "description": "Generate explainer video",
+        "progress": 100
+      }
+    ],
+    "artifacts": {
+      "model_3d": "outputs/models/proj_20261107_105250_model",
+      "metadata": {
+        "created_at": "2026-11-07T10:53:02.062783",
+        "input_images": 30,
+        "point_count": 2847,
+        "triangle_count": 9,
+        "bounding_box": [
+          [
+            -1.0,
+            -0.5857664425517518,
+            -0.774972912948469
+          ],
+          [
+            1.0,
+            0.5857664425517518,
+            0.774972912948469
+          ]
+        ],
+        "reconstruction_method": "sift_photogrammetry"
+      },
+      "explainer_video": "outputs/videos/proj_20261107_105250_explainer.mp4",
+      "video_metadata": {
+        "project_id": "proj_20261107_105250",
+        "video_path": "outputs/videos/proj_20261107_105250_explainer.mp4",
+        "metadata_path": "outputs/videos/proj_20261107_105250_explainer_metadata.json",
+        "duration": 27,
+        "status": "completed"
+      }
+    }
+  },
+  "proj_20261107_111038": {
+    "id": "proj_20261107_111038",
+    "name": "Test-123",
+    "description": "",
+    "product_type": "Orthopedic Hardware",
+    "status": "completed",
+    "created_at": "2026-11-07T11:10:38.744512",
+    "updated_at": "2026-11-07T11:11:58.793104",
+    "progress": 100,
+    "steps": [
+      {
+        "name": "upload_media",
+        "status": "completed",
+        "description": "Upload video/photos",
+        "progress": 100
+      },
+      {
+        "name": "process_3d",
+        "status": "completed",
+        "description": "Generate 3D model",
+        "progress": 100
+      },
+      {
+        "name": "create_explainer",
+        "status": "completed",
+        "description": "Generate explainer video",
+        "progress": 100
+      }
+    ],
+    "artifacts": {
+      "model_3d": "outputs/models/proj_20261107_111038_model",
+      "metadata": {
+        "created_at": "2026-11-07T11:10:57.467905",
+        "input_images": 30,
+        "point_count": 2847,
+        "triangle_count": 12,
+        "bounding_box": [
+          [
+            -1.0,
+            -0.549950088570197,
+            -0.7245413947059764
+          ],
+          [
+            1.0,
+            0.549950088570197,
+            0.7245413947059764
+          ]
+        ],
+        "reconstruction_method": "sift_photogrammetry"
+      },
+      "explainer_video": "outputs/videos/proj_20261107_111038_explainer.mp4",
+      "video_metadata": {
+        "project_id": "proj_20261107_111038",
+        "video_path": "outputs/videos/proj_20261107_111038_explainer.mp4",
+        "metadata_path": "outputs/videos/proj_20261107_111038_explainer_metadata.json",
+        "duration": 27,
+        "status": "completed"
+      }
+    }
+  }
+}
